@@ -3,6 +3,6 @@ spec:
     server: https://kubernetes.default.svc
   source:
     repoURL: https://github.com/codemato/cdk-eks-argo-workload
-    targetRevision: workshop
+    targetRevision: main
   ingress:
     host:
