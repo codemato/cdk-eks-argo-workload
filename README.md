@@ -46,7 +46,7 @@ envs
 ├── dev
 │   ├── Chart.yaml
 │   ├── templates
-│   │   ├── team-burnham.yaml
+│   │   ├── team-amway.yaml
 │   │   ├── team-carmen.yaml
 │   │   ├── team-riker.yaml
 │   └── values.yaml
@@ -63,7 +63,7 @@ Each `team` subdirectory in turn has environment subdirectories. The configurati
 **NOTE** Some team environment directories may contain additional `yaml` files such as an `ingress.yaml`
 ```
 teams
-├── team-burnham
+├── team-amway
 │   ├── dev
 │   │   ├── deployment.yaml
 │   │   └── service.yaml
